@@ -1,0 +1,984 @@
+<html lang="en" class="dark">
+
+<head>
+  <meta charset="UTF-8">
+  <base href="/">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="icon" type="image/png" sizes="192x192" href="/android-chrome-192x192.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1, maximum-scale=1, viewport-fit=cover, user-scalable=no, shrink-to-fit=no">
+  <meta name="HandheldFriendly" content="true">
+  <link href="/fontawesome-5.15.4/css/fontawesome.css" rel="stylesheet">
+  <link href="/fontawesome-5.15.4/css/brands.css" rel="stylesheet">
+  <link href="/css/quicksand.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+  <title>Deeeep.io - BETA</title>
+  <script src="https://s0.2mdn.net/instream/video/client.js" async="" type="text/javascript"></script>
+  <script async="" src="https://securepubads.g.doubleclick.net/tag/js/gpt.js"></script>
+  <script type="module" crossorigin="" src="/assets/index.46e929ac.js"></script>
+  <link rel="modulepreload" href="/assets/vendor.a6a6e17a.js">
+  <link rel="stylesheet" href="/assets/vendor.d2dc09ff.css">
+  <link rel="stylesheet" href="/assets/index.388818f1.css">
+  <meta http-equiv="origin-trial"
+    content="AxujKG9INjsZ8/gUq8+dTruNvk7RjZQ1oFhhgQbcTJKDnZfbzSTE81wvC2Hzaf3TW4avA76LTZEMdiedF1vIbA4AAABueyJvcmlnaW4iOiJodHRwczovL2ltYXNkay5nb29nbGVhcGlzLmNvbTo0NDMiLCJmZWF0dXJlIjoiVHJ1c3RUb2tlbnMiLCJleHBpcnkiOjE2NTI3NzQ0MDAsImlzVGhpcmRQYXJ0eSI6dHJ1ZX0=">
+  <meta http-equiv="origin-trial"
+    content="Azuce85ORtSnWe1MZDTv68qpaW3iHyfL9YbLRy0cwcCZwVnePnOmkUJlG8HGikmOwhZU22dElCcfrfX2HhrBPAkAAAB7eyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiVHJ1c3RUb2tlbnMiLCJleHBpcnkiOjE2NTI3NzQ0MDAsImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9">
+  <meta http-equiv="origin-trial"
+    content="A16nvcdeoOAqrJcmjLRpl1I6f3McDD8EfofAYTt/P/H4/AWwB99nxiPp6kA0fXoiZav908Z8etuL16laFPUdfQsAAACBeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXRhZ3NlcnZpY2VzLmNvbTo0NDMiLCJmZWF0dXJlIjoiVHJ1c3RUb2tlbnMiLCJleHBpcnkiOjE2NTI3NzQ0MDAsImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9">
+  <meta http-equiv="origin-trial"
+    content="AxBHdr0J44vFBQtZUqX9sjiqf5yWZ/OcHRcRMN3H9TH+t90V/j3ENW6C8+igBZFXMJ7G3Pr8Dd13632aLng42wgAAACBeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiVHJ1c3RUb2tlbnMiLCJleHBpcnkiOjE2NTI3NzQ0MDAsImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9">
+  <meta http-equiv="origin-trial"
+    content="A88BWHFjcawUfKU3lIejLoryXoyjooBXLgWmGh+hNcqMK44cugvsI5YZbNarYvi3roc1fYbHA1AVbhAtuHZflgEAAAB2eyJvcmlnaW4iOiJodHRwczovL2dvb2dsZS5jb206NDQzIiwiZmVhdHVyZSI6IlRydXN0VG9rZW5zIiwiZXhwaXJ5IjoxNjUyNzc0NDAwLCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlfQ==">
+  <meta http-equiv="origin-trial"
+    content="A8FHS1NmdCwGqD9DwOicnHHY+y27kdWfxKa0YHSGDfv0CSpDKRHTQdQmZVPDUdaFWUsxdgVxlwAd6o+dhJykPA0AAACWeyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiQ29udmVyc2lvbk1lYXN1cmVtZW50IiwiZXhwaXJ5IjoxNjQzMTU1MTk5LCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlLCJ1c2FnZSI6InN1YnNldCJ9">
+  <meta http-equiv="origin-trial"
+    content="A8zdXi6dr1hwXEUjQrYiyYQGlU3557y5QWDnN0Lwgj9ePt66XMEvNkVWOEOWPd7TP9sBQ25X0Q15Lr1Nn4oGFQkAAACceyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiQ29udmVyc2lvbk1lYXN1cmVtZW50IiwiZXhwaXJ5IjoxNjQzMTU1MTk5LCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlLCJ1c2FnZSI6InN1YnNldCJ9">
+  <meta http-equiv="origin-trial"
+    content="A4/Htern2udN9w3yJK9QgWQxQFruxOXsXL7cW60DyCl0EZFGCSme/J33Q/WzF7bBkVvhEWDlcBiUyZaim5CpFQwAAACceyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXRhZ3NlcnZpY2VzLmNvbTo0NDMiLCJmZWF0dXJlIjoiQ29udmVyc2lvbk1lYXN1cmVtZW50IiwiZXhwaXJ5IjoxNjQzMTU1MTk5LCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlLCJ1c2FnZSI6InN1YnNldCJ9">
+  <script src="https://securepubads.g.doubleclick.net/gpt/pubads_impl_2022030301.js" async=""></script>
+  <style type="text/css">
+    .vue-notification-group {
+      display: block;
+      position: fixed;
+      z-index: 5000;
+    }
+
+    .vue-notification-wrapper {
+      display: block;
+      overflow: hidden;
+      width: 100%;
+      margin: 0;
+      padding: 0;
+    }
+
+    .notification-title {
+      font-weight: 600;
+    }
+
+    .vue-notification-template {
+      display: block;
+      box-sizing: border-box;
+      background: white;
+      text-align: left;
+    }
+
+    .vue-notification {
+      display: block;
+      box-sizing: border-box;
+      text-align: left;
+      font-size: 12px;
+      padding: 10px;
+      margin: 0 5px 5px;
+
+      color: white;
+      background: #44A4FC;
+      border-left: 5px solid #187FE7;
+    }
+
+    .vue-notification.warn {
+      background: #ffb648;
+      border-left-color: #f48a06;
+    }
+
+    .vue-notification.error {
+      background: #E54D42;
+      border-left-color: #B82E24;
+    }
+
+    .vue-notification.success {
+      background: #68CD86;
+      border-left-color: #42A85F;
+    }
+
+    .vn-fade-enter-active,
+    .vn-fade-leave-active,
+    .vn-fade-move {
+      transition: all .5s;
+    }
+
+    .vn-fade-enter-from,
+    .vn-fade-leave-to {
+      opacity: 0;
+    }
+  </style>
+  <link href="https://www.googletagmanager.com" rel="preconnect">
+  <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-6SX4GD0CKY&amp;l=dataLayer"></script>
+  <link rel="preload" href="https://adservice.google.com.au/adsid/integrator.js?domain=beta.deeeep.io" as="script">
+  <script type="text/javascript"
+    src="https://adservice.google.com.au/adsid/integrator.js?domain=beta.deeeep.io"></script>
+  <link rel="preload" href="https://adservice.google.com/adsid/integrator.js?domain=beta.deeeep.io" as="script">
+  <script type="text/javascript" src="https://adservice.google.com/adsid/integrator.js?domain=beta.deeeep.io"></script>
+  <style type="text/css">
+    button.btn[data-v-5f0b9ba1] {
+      display: inline-block;
+      font-weight: 300;
+      line-height: 1.25;
+      text-align: center;
+      white-space: nowrap;
+      vertical-align: middle;
+      user-select: none;
+      border: 1px solid transparent;
+      cursor: pointer;
+      letter-spacing: 1px;
+      transition: all .15s ease
+    }
+
+    button.btn.btn-sm[data-v-5f0b9ba1] {
+      padding: .4rem .8rem;
+      font-size: .8rem;
+      border-radius: .2rem
+    }
+
+    button.btn.btn-primary[data-v-5f0b9ba1] {
+      color: #fff;
+      background-color: #45C8F1;
+      border-color: #45C8F1
+    }
+
+    button.btn.btn-outline-primary[data-v-5f0b9ba1] {
+      color: #45C8F1;
+      background-color: transparent;
+      border-color: #45C8F1
+    }
+
+    button.btn.btn-danger[data-v-5f0b9ba1] {
+      color: #fff;
+      background-color: #FF4949;
+      border-color: #FF4949
+    }
+
+    .text-muted[data-v-5f0b9ba1] {
+      color: #8492A6
+    }
+
+    .text-center[data-v-5f0b9ba1] {
+      text-align: center
+    }
+
+    .drop-down-enter[data-v-5f0b9ba1],
+    .drop-down-leave-to[data-v-5f0b9ba1] {
+      transform: translateX(0) translateY(-20px);
+      transition-timing-function: cubic-bezier(0.74, 0.04, 0.26, 1.05);
+      opacity: 0
+    }
+
+    .drop-down-enter-active[data-v-5f0b9ba1],
+    .drop-down-leave-active[data-v-5f0b9ba1] {
+      transition: all .15s
+    }
+
+    .move-left-enter[data-v-5f0b9ba1],
+    .move-left-leave-to[data-v-5f0b9ba1] {
+      transform: translateY(0) translateX(-80px);
+      transition-timing-function: cubic-bezier(0.74, 0.04, 0.26, 1.05);
+      opacity: 0
+    }
+
+    .move-left-enter-active[data-v-5f0b9ba1],
+    .move-left-leave-active[data-v-5f0b9ba1] {
+      transition: all .15s
+    }
+
+    .no-tr[data-v-5f0b9ba1] {
+      transition: none !important
+    }
+
+    .no-tr *[data-v-5f0b9ba1] {
+      transition: none !important
+    }
+
+    .overlay[data-v-5f0b9ba1] {
+      position: fixed;
+      background: rgba(220, 220, 220, 0.8);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      transition: all 0.2s ease;
+      opacity: 0;
+      visibility: hidden
+    }
+
+    .overlay .modal[data-v-5f0b9ba1] {
+      transition: all 0.2s ease;
+      opacity: 0;
+      transform: scale(0.6);
+      overflow: hidden
+    }
+
+    .overlay.show[data-v-5f0b9ba1] {
+      opacity: 1;
+      visibility: visible
+    }
+
+    .overlay.show .modal[data-v-5f0b9ba1] {
+      opacity: 1;
+      transform: scale(1)
+    }
+
+    .panel[data-v-5f0b9ba1] {
+      padding: 6px 10px;
+      display: flex;
+      width: 100%;
+      box-sizing: border-box;
+      align-items: center;
+      border-radius: 4px;
+      position: relative;
+      border: 1px solid #eaf7ff;
+      background: #f7fcff;
+      outline: none;
+      transition: all 0.07s ease-in-out
+    }
+
+    .btn[data-v-5f0b9ba1] {
+      cursor: pointer;
+      box-sizing: border-box
+    }
+
+    .light-btn[data-v-5f0b9ba1] {
+      padding: 6px 10px;
+      display: flex;
+      width: 100%;
+      box-sizing: border-box;
+      align-items: center;
+      border-radius: 4px;
+      position: relative;
+      border: 1px solid #eaf7ff;
+      background: #f7fcff;
+      outline: none;
+      cursor: pointer;
+      transition: all 0.07s ease-in-out
+    }
+
+    .light-btn[data-v-5f0b9ba1]:hover {
+      background: #e0f4ff;
+      border-color: #8acfff
+    }
+
+    .shake[data-v-5f0b9ba1] {
+      animation: shake-data-v-5f0b9ba1 0.82s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
+      transform: translate3d(0, 0, 0)
+    }
+
+    @keyframes shake-data-v-5f0b9ba1 {
+
+      10%,
+      90% {
+        transform: translate3d(-1px, 0, 0)
+      }
+
+      20%,
+      80% {
+        transform: translate3d(2px, 0, 0)
+      }
+
+      30%,
+      50%,
+      70% {
+        transform: translate3d(-4px, 0, 0)
+      }
+
+      40%,
+      60% {
+        transform: translate3d(4px, 0, 0)
+      }
+    }
+
+    .pulse[data-v-5f0b9ba1] {
+      animation: pulse-data-v-5f0b9ba1 2s ease infinite
+    }
+
+    @keyframes pulse-data-v-5f0b9ba1 {
+      0% {
+        opacity: .7
+      }
+
+      50% {
+        opacity: .4
+      }
+
+      100% {
+        opacity: .7
+      }
+    }
+
+    .flash-once[data-v-5f0b9ba1] {
+      animation: flash-once 3.5s ease 1
+    }
+
+    @keyframes fade-up-data-v-5f0b9ba1 {
+      0% {
+        transform: translate3d(0, 10px, 0);
+        opacity: 0
+      }
+
+      100% {
+        transform: translate3d(0, 0, 0);
+        opacity: 1
+      }
+    }
+
+    .fade-in[data-v-5f0b9ba1] {
+      animation: fade-in-data-v-5f0b9ba1 .3s ease-in-out
+    }
+
+    @keyframes fade-in-data-v-5f0b9ba1 {
+      0% {
+        opacity: 0
+      }
+
+      100% {
+        opacity: 1
+      }
+    }
+
+    .spin[data-v-5f0b9ba1] {
+      animation-name: spin-data-v-5f0b9ba1;
+      animation-duration: 2000ms;
+      animation-iteration-count: infinite;
+      animation-timing-function: linear
+    }
+
+    @keyframes spin-data-v-5f0b9ba1 {
+      from {
+        transform: rotate(0deg)
+      }
+
+      to {
+        transform: rotate(360deg)
+      }
+    }
+
+    .bounceIn[data-v-5f0b9ba1] {
+      animation-name: bounceIn-data-v-5f0b9ba1;
+      transform-origin: center bottom;
+      animation-duration: 1s;
+      animation-fill-mode: both;
+      animation-iteration-count: 1
+    }
+
+    @keyframes bounceIn-data-v-5f0b9ba1 {
+
+      0%,
+      20%,
+      40%,
+      60%,
+      80%,
+      100% {
+        -webkit-transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+        transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1)
+      }
+
+      0% {
+        opacity: 1;
+        -webkit-transform: scale3d(0.8, 0.8, 0.8);
+        transform: scale3d(0.8, 0.8, 0.8)
+      }
+
+      20% {
+        -webkit-transform: scale3d(1.1, 1.1, 1.1);
+        transform: scale3d(1.1, 1.1, 1.1)
+      }
+
+      40% {
+        -webkit-transform: scale3d(0.9, 0.9, 0.9);
+        transform: scale3d(0.9, 0.9, 0.9)
+      }
+
+      60% {
+        opacity: 1;
+        -webkit-transform: scale3d(1.03, 1.03, 1.03);
+        transform: scale3d(1.03, 1.03, 1.03)
+      }
+
+      80% {
+        -webkit-transform: scale3d(0.97, 0.97, 0.97);
+        transform: scale3d(0.97, 0.97, 0.97)
+      }
+
+      100% {
+        opacity: 1;
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1)
+      }
+    }
+
+    @keyframes dots-data-v-5f0b9ba1 {
+
+      0%,
+      20% {
+        color: rgba(0, 0, 0, 0);
+        text-shadow: 0.25em 0 0 rgba(0, 0, 0, 0), 0.5em 0 0 rgba(0, 0, 0, 0)
+      }
+
+      40% {
+        color: #8492A6;
+        text-shadow: 0.25em 0 0 rgba(0, 0, 0, 0), 0.5em 0 0 rgba(0, 0, 0, 0)
+      }
+
+      60% {
+        text-shadow: 0.25em 0 0 #8492A6, 0.5em 0 0 rgba(0, 0, 0, 0)
+      }
+
+      80%,
+      100% {
+        text-shadow: .25em 0 0 #8492A6, .5em 0 0 #8492A6
+      }
+    }
+
+    @keyframes recording-data-v-5f0b9ba1 {
+      0% {
+        box-shadow: 0px 0px 5px 0px rgba(173, 0, 0, 0.3)
+      }
+
+      65% {
+        box-shadow: 0px 0px 5px 5px rgba(173, 0, 0, 0.3)
+      }
+
+      90% {
+        box-shadow: 0px 0px 5px 5px rgba(173, 0, 0, 0)
+      }
+    }
+
+    body[data-v-5f0b9ba1] {
+      margin: 0;
+      font-size: 100%;
+      color: #3C4858
+    }
+
+    a[data-v-5f0b9ba1] {
+      text-decoration: none;
+      color: #45C8F1
+    }
+
+    h1[data-v-5f0b9ba1],
+    h2[data-v-5f0b9ba1],
+    h3[data-v-5f0b9ba1],
+    h4[data-v-5f0b9ba1] {
+      margin-top: 0
+    }
+
+    svg[data-v-5f0b9ba1] {
+      outline: none
+    }
+
+    .container_selected_area[data-v-5f0b9ba1] {
+      display: none;
+      visibility: hidden;
+      padding: 0;
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      z-index: 2147483647
+    }
+
+    .container_selected_area.active[data-v-5f0b9ba1] {
+      visibility: visible;
+      display: block
+    }
+
+    .container_selected_area .label[data-v-5f0b9ba1] {
+      font-family: "Didact Gothic Regular", sans-serif;
+      font-size: 22px;
+      text-align: center;
+      padding-top: 15px
+    }
+
+    .container_selected_area .area[data-v-5f0b9ba1] {
+      display: none;
+      position: fixed;
+      z-index: 2147483647;
+      border: 1px solid #1e83ff;
+      background: rgba(30, 131, 255, 0.1);
+      box-sizing: border-box
+    }
+
+    .container_selected_area .area.active[data-v-5f0b9ba1] {
+      display: block;
+      top: 0;
+      left: 0
+    }
+
+    .hide[data-v-5f0b9ba1] {
+      display: none
+    }
+  </style>
+  <meta http-equiv="origin-trial"
+    content="AxujKG9INjsZ8/gUq8+dTruNvk7RjZQ1oFhhgQbcTJKDnZfbzSTE81wvC2Hzaf3TW4avA76LTZEMdiedF1vIbA4AAABueyJvcmlnaW4iOiJodHRwczovL2ltYXNkay5nb29nbGVhcGlzLmNvbTo0NDMiLCJmZWF0dXJlIjoiVHJ1c3RUb2tlbnMiLCJleHBpcnkiOjE2NTI3NzQ0MDAsImlzVGhpcmRQYXJ0eSI6dHJ1ZX0=">
+  <meta http-equiv="origin-trial"
+    content="Azuce85ORtSnWe1MZDTv68qpaW3iHyfL9YbLRy0cwcCZwVnePnOmkUJlG8HGikmOwhZU22dElCcfrfX2HhrBPAkAAAB7eyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiVHJ1c3RUb2tlbnMiLCJleHBpcnkiOjE2NTI3NzQ0MDAsImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9">
+  <meta http-equiv="origin-trial"
+    content="A16nvcdeoOAqrJcmjLRpl1I6f3McDD8EfofAYTt/P/H4/AWwB99nxiPp6kA0fXoiZav908Z8etuL16laFPUdfQsAAACBeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXRhZ3NlcnZpY2VzLmNvbTo0NDMiLCJmZWF0dXJlIjoiVHJ1c3RUb2tlbnMiLCJleHBpcnkiOjE2NTI3NzQ0MDAsImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9">
+  <meta http-equiv="origin-trial"
+    content="AxBHdr0J44vFBQtZUqX9sjiqf5yWZ/OcHRcRMN3H9TH+t90V/j3ENW6C8+igBZFXMJ7G3Pr8Dd13632aLng42wgAAACBeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiVHJ1c3RUb2tlbnMiLCJleHBpcnkiOjE2NTI3NzQ0MDAsImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9">
+  <meta http-equiv="origin-trial"
+    content="A88BWHFjcawUfKU3lIejLoryXoyjooBXLgWmGh+hNcqMK44cugvsI5YZbNarYvi3roc1fYbHA1AVbhAtuHZflgEAAAB2eyJvcmlnaW4iOiJodHRwczovL2dvb2dsZS5jb206NDQzIiwiZmVhdHVyZSI6IlRydXN0VG9rZW5zIiwiZXhwaXJ5IjoxNjUyNzc0NDAwLCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlfQ==">
+  <meta http-equiv="origin-trial"
+    content="A7D05fL9zBqt11RE193XmJzeo4RPtGLsV822r1Bivfn7OUM0YRLJQcJVPgMdvq7u5hLUS/KmNIpe9fz+VE/dUg4AAACJeyJvcmlnaW4iOiJodHRwczovL2ltYXNkay5nb29nbGVhcGlzLmNvbTo0NDMiLCJmZWF0dXJlIjoiQ29udmVyc2lvbk1lYXN1cmVtZW50IiwiZXhwaXJ5IjoxNjQzMTU1MTk5LCJpc1RoaXJkUGFydHkiOnRydWUsInVzYWdlIjoic3Vic2V0In0=">
+  <link rel="preload" href="https://adservice.google.com.au/adsid/integrator.js?domain=beta.deeeep.io" as="script">
+  <script type="text/javascript"
+    src="https://adservice.google.com.au/adsid/integrator.js?domain=beta.deeeep.io"></script>
+  <link rel="preload" href="https://adservice.google.com/adsid/integrator.js?domain=beta.deeeep.io" as="script">
+  <script type="text/javascript" src="https://adservice.google.com/adsid/integrator.js?domain=beta.deeeep.io"></script>
+</head>
+
+<body>
+  <div id="app" data-v-app="">
+    <!---->
+    <!---->
+    <div class="ui" data-v-96091bac="">
+      <div class="home-page width-1 height-2" data-v-02abe7c0="" data-v-96091bac="">
+        <div class="home-bg" data-v-02abe7c0=""></div>
+        <div class="first" data-v-02abe7c0="">
+          <div class="el-row is-justify-center is-align-center main" type="flex" data-v-02abe7c0="">
+            <div class="el-col el-col-24 auto-col flex flex-col col" data-v-3f3cfaed="" data-v-02abe7c0="">
+              <div class="flex flex-col flex-fill justify-center" data-v-02abe7c0="">
+                <div class="play-game" data-v-05da2516="" data-v-02abe7c0="">
+                  <div class="el-image" data-v-05da2516=""><img class="el-image__inner" src="/img/logo/logov2@0.5x.png"
+                      style="object-fit: contain;">
+                    <!--v-if-->
+                  </div>
+                  <div class="el-input name-input mb-4" data-v-05da2516="">
+                    <!-- input -->
+                    <!-- prepend slot -->
+                    <!--v-if--><input class="el-input__inner" autofocus="" type="text" autocomplete="off"
+                      placeholder="Type a name"><!-- prefix slot -->
+                    <!--v-if-->
+                    <!-- suffix slot -->
+                    <!--v-if-->
+                    <!-- append slot -->
+                    <!--v-if-->
+                  </div>
+                  <div class="el-row main-actions" type="flex" data-v-05da2516=""
+                    style="margin-left: -4px; margin-right: -4px;">
+                    <div class="el-col el-col-16 is-guttered" data-v-05da2516=""
+                      style="padding-left: 4px; padding-right: 4px;">
+                      <div class="el-button-group nice-btn-group block modes" data-v-164d6e5a="" data-v-05da2516="">
+                        <button
+                          class="el-button el-button--default mode selected mode--1 btn nice-button default depressed mode selected mode--1"
+                          type="button" data-v-63abb087="" data-v-05da2516="">
+                          <!--v-if-->
+                          <!--v-if--><span>
+                            <!----><span class="inner" data-v-63abb087=""><span class="name" data-v-05da2516="">Free For
+                                All</span></span>
+                            <!---->
+                          </span>
+                        </button><button
+                          class="el-button el-button--default mode mode--2 btn nice-button default depressed mode mode--2"
+                          type="button" data-v-63abb087="" data-v-05da2516="">
+                          <!--v-if-->
+                          <!--v-if--><span>
+                            <!----><span class="inner" data-v-63abb087=""><span class="name"
+                                data-v-05da2516="">PD</span></span>
+                            <!---->
+                          </span>
+                        </button></div>
+                    </div>
+                    <div class="el-col el-col-8 is-guttered" data-v-05da2516=""
+                      style="padding-left: 4px; padding-right: 4px;"><button
+                        class="el-button el-button--default btn play btn nice-button green block btn play" type="button"
+                        data-v-63abb087="" data-v-05da2516="">
+                        <!--v-if-->
+                        <!--v-if--><span>
+                          <!----><span class="inner" data-v-63abb087="">Play</span>
+                          <!---->
+                        </span>
+                      </button></div>
+                  </div>
+                </div>
+                <!---->
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="p-2 sidebar left space-y-2" data-v-02abe7c0="">
+          <!----><button class="el-button el-button--default el-button--medium btn nice-button green has-icon block"
+            type="button" data-v-63abb087="" data-v-02abe7c0="">
+            <!--v-if-->
+            <!--v-if--><span><svg width="1em" height="1em" viewBox="0 0 24 24" class="svg-icon icon" data-v-35f7fcad=""
+                data-v-78853d36="" data-v-63abb087="" style="--sx:1; --sy:1; --r:0deg;">
+                <path
+                  d="M20,4C21.11,4 22,4.89 22,6V18C22,19.11 21.11,20 20,20H4C2.89,20 2,19.11 2,18V6C2,4.89 2.89,4 4,4H20M8.5,15V9H7.25V12.5L4.75,9H3.5V15H4.75V11.5L7.3,15H8.5M13.5,10.26V9H9.5V15H13.5V13.75H11V12.64H13.5V11.38H11V10.26H13.5M20.5,14V9H19.25V13.5H18.13V10H16.88V13.5H15.75V9H14.5V14A1,1 0 0,0 15.5,15H19.5A1,1 0 0,0 20.5,14Z"
+                  data-v-35f7fcad=""></path>
+              </svg><span class="inner" data-v-63abb087="">Changelog</span>
+              <!---->
+            </span>
+          </button>
+        </div>
+        <div class="p-2 sidebar right space-y-2" data-v-02abe7c0="">
+          <div class="container" data-v-0db26e70="" data-v-02abe7c0="">
+            <div class="el-row justify-center" type="flex" data-v-0db26e70=""
+              style="margin-left: -3px; margin-right: -3px;">
+              <div class="el-col el-col-12 el-col-sm-8 is-guttered text-center" data-v-0db26e70=""
+                style="padding-left: 3px; padding-right: 3px;"><button
+                  class="el-button el-button--default btn nice-button pink has-icon square" type="button"
+                  data-v-63abb087="" data-v-0db26e70="">
+                  <!--v-if-->
+                  <!--v-if--><span><svg width="1.7875em" height="1.7875em" viewBox="0 0 24 24" class="svg-icon icon"
+                      data-v-35f7fcad="" data-v-78853d36="" data-v-63abb087="" style="--sx:1; --sy:1; --r:0deg;">
+                      <path d="M12,18H6V14H12M21,14V12L20,7H4L3,12V14H4V20H14V14H18V20H20V14M20,4H4V6H20V4Z"
+                        data-v-35f7fcad=""></path>
+                    </svg><span class="inner" data-v-63abb087="">Store</span>
+                    <!---->
+                  </span>
+                </button></div>
+              <!---->
+            </div>
+          </div>
+          <div class="mobile-module closed" data-v-0b4cd4a6="" data-v-f19a9810="" data-v-02abe7c0=""><button
+              class="el-button el-button--default el-button--medium btn nice-button blue has-icon block" type="button"
+              data-v-63abb087="" data-v-0b4cd4a6="">
+              <!--v-if-->
+              <!--v-if--><span><svg width="1em" height="1em" viewBox="0 0 24 24" class="svg-icon icon"
+                  data-v-35f7fcad="" data-v-78853d36="" data-v-63abb087="" style="--sx:1; --sy:1; --r:0deg;">
+                  <path
+                    d="M10,21V19H6.41L10.91,14.5L9.5,13.09L5,17.59V14H3V21H10M14.5,10.91L19,6.41V10H21V3H14V5H17.59L13.09,9.5L14.5,10.91Z"
+                    data-v-35f7fcad=""></path>
+                </svg><span class="inner" data-v-63abb087="">Leaderboard</span>
+                <!---->
+              </span>
+            </button></div>
+          <div class="mobile-module closed" data-v-0b4cd4a6="" data-v-02abe7c0=""><button
+              class="el-button el-button--default el-button--medium btn nice-button blue has-icon block" type="button"
+              data-v-63abb087="" data-v-0b4cd4a6="">
+              <!--v-if-->
+              <!--v-if--><span><svg width="1em" height="1em" viewBox="0 0 24 24" class="svg-icon icon"
+                  data-v-35f7fcad="" data-v-78853d36="" data-v-63abb087="" style="--sx:1; --sy:1; --r:0deg;">
+                  <path
+                    d="M10,21V19H6.41L10.91,14.5L9.5,13.09L5,17.59V14H3V21H10M14.5,10.91L19,6.41V10H21V3H14V5H17.59L13.09,9.5L14.5,10.91Z"
+                    data-v-35f7fcad=""></path>
+                </svg><span class="inner" data-v-63abb087="">Latest videos</span>
+                <!---->
+              </span>
+            </button></div>
+          <div class="el-button-group nice-btn-group block mt-2" data-v-164d6e5a="" data-v-02abe7c0=""><button
+              class="el-button el-button--default el-button--medium px-1 btn nice-button green depressed px-1"
+              type="button" data-v-63abb087="">
+              <!--v-if-->
+              <!--v-if--><span>
+                <!----><span class="inner" data-v-63abb087=""> Maps </span>
+                <!---->
+              </span>
+            </button><button
+              class="el-button el-button--default el-button--medium px-1 btn nice-button purple depressed px-1"
+              type="button" data-v-63abb087="">
+              <!--v-if-->
+              <!--v-if--><span>
+                <!----><span class="inner" data-v-63abb087=""> Wiki </span>
+                <!---->
+              </span>
+            </button><button
+              class="el-button el-button--default el-button--medium px-1 btn nice-button blue depressed px-1"
+              type="button" data-v-63abb087="">
+              <!--v-if-->
+              <!--v-if--><span>
+                <!----><span class="inner" data-v-63abb087=""> Creators </span>
+                <!---->
+              </span>
+            </button></div>
+        </div>
+        <div class="mobile-fixed-ad" data-v-02abe7c0="">
+          <div id="div-gpt-ad-1639521954758-0" class="ad-block rounded-tr-md overflow-hidden" data-v-cb1f92d0=""
+            data-v-02abe7c0="" data-google-query-id="CK3JqciuuPYCFdArtwAdDTIKsg"
+            style="min-width: 320px; min-height: 50px;">
+            <div id="google_ads_iframe_/262300382/v3-home-mobile_0__container__" style="border: 0pt none;"><iframe
+                id="google_ads_iframe_/262300382/v3-home-mobile_0" name="google_ads_iframe_/262300382/v3-home-mobile_0"
+                title="3rd party ad content" width="320" height="50" scrolling="no" marginwidth="0" marginheight="0"
+                frameborder="0" role="region" aria-label="Advertisement" tabindex="0"
+                sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation"
+                srcdoc="" style="border: 0px; vertical-align: bottom;" data-google-container-id="3"
+                data-load-complete="true"></iframe></div>
+          </div>
+        </div>
+        <div class="el-row header justify-between flex-nowrap" type="flex" data-v-02abe7c0="">
+          <div class="el-col el-col-24 auto-col left" data-v-3f3cfaed="" data-v-02abe7c0="">
+            <div class="user-widget" data-v-e1f15690="" data-v-02abe7c0="">
+              <div class="avatar tier-null cursor-pointer" data-v-1e5617f0="" data-v-e1f15690="">
+                <!---->
+                <div class="el-image pic" data-v-1e5617f0="" style="width: 2.63rem; height: 2.63rem;"><img
+                    class="el-image__inner" src="img/avatar.png" style="object-fit: cover;">
+                  <!--v-if-->
+                </div>
+                <!---->
+              </div><button class="el-button el-button--default btn nice-button blue has-icon" type="button"
+                data-v-63abb087="" data-v-e1f15690="">
+                <!--v-if-->
+                <!--v-if--><span><svg width="1.375em" height="1.375em" viewBox="0 0 24 24" class="svg-icon icon"
+                    data-v-35f7fcad="" data-v-78853d36="" data-v-63abb087="" style="--sx:1; --sy:1; --r:0deg;">
+                    <path
+                      d="M12,4A4,4 0 0,1 16,8A4,4 0 0,1 12,12A4,4 0 0,1 8,8A4,4 0 0,1 12,4M12,14C16.42,14 20,15.79 20,18V20H4V18C4,15.79 7.58,14 12,14Z"
+                      data-v-35f7fcad=""></path>
+                  </svg><span class="inner" data-v-63abb087="">Sign in</span>
+                  <!---->
+                </span>
+              </button>
+            </div>
+          </div>
+          <div class="el-col el-col-24 auto-col" data-v-3f3cfaed="" data-v-02abe7c0="">
+            <div class="el-row top-right-nav items-center" type="flex" data-v-a6971080="" data-v-02abe7c0=""
+              style="margin-left: -4px; margin-right: -4px;">
+              <div class="el-col el-col-24 is-guttered auto-col" data-v-3f3cfaed="" data-v-a6971080=""
+                style="padding-left: 4px; padding-right: 4px;">
+                <div class="container flex" data-v-e80b2d0c="" data-v-a6971080="">
+                  <div class="el-dropdown el-dropdown--normal" aria-describedby="el-popper-7622">
+                    <div class="content flex items-center space-x-1 el-dropdown-selfdefine" tabindex="0"
+                      aria-describedby="el-popper-7692" data-v-e80b2d0c="" aria-haspopup="list"
+                      aria-controls="dropdown-menu-4236" role="button"><svg width="1.125em" height="1.125em"
+                        viewBox="0 0 24 24" class="svg-icon" data-v-35f7fcad="" data-v-78853d36="" data-v-e80b2d0c=""
+                        style="--sx:1; --sy:1; --r:0deg;">
+                        <path
+                          d="M17.9,17.39C17.64,16.59 16.89,16 16,16H15V13A1,1 0 0,0 14,12H8V10H10A1,1 0 0,0 11,9V7H13A2,2 0 0,0 15,5V4.59C17.93,5.77 20,8.64 20,12C20,14.08 19.2,15.97 17.9,17.39M11,19.93C7.05,19.44 4,16.08 4,12C4,11.38 4.08,10.78 4.21,10.21L9,15V16A2,2 0 0,0 11,18M12,2A10,10 0 0,0 2,12A10,10 0 0,0 12,22A10,10 0 0,0 22,12A10,10 0 0,0 12,2Z"
+                          data-v-35f7fcad=""></path>
+                      </svg><span class="region-name" data-v-e80b2d0c="">NAE</span></div>
+                  </div>
+                </div>
+              </div>
+              <div class="divider" data-v-a6971080=""></div>
+              <div class="el-col el-col-24 is-guttered auto-col" data-v-3f3cfaed="" data-v-a6971080=""
+                style="padding-left: 4px; padding-right: 4px;">
+                <div class="el-dropdown el-dropdown--normal" aria-describedby="el-popper-506"><button
+                    class="el-button el-button--default el-button--small btn nice-button yellow has-icon square only-icon el-dropdown-selfdefine"
+                    type="button" data-v-63abb087="" data-v-1afbcfa4="" aria-haspopup="list"
+                    aria-controls="dropdown-menu-4811" role="button" tabindex="0">
+                    <!--v-if-->
+                    <!--v-if--><span><svg width="1.625em" height="1.625em" viewBox="0 0 24 24" class="svg-icon icon"
+                        data-v-35f7fcad="" data-v-78853d36="" data-v-63abb087="" style="--sx:1; --sy:1; --r:0deg;">
+                        <path
+                          d="M14.5 15.41C14.58 15.5 14.58 15.69 14.5 15.8C13.77 16.5 12.41 16.56 12 16.56C11.61 16.56 10.25 16.5 9.54 15.8C9.44 15.69 9.44 15.5 9.54 15.41C9.65 15.31 9.82 15.31 9.92 15.41C10.38 15.87 11.33 16 12 16C12.69 16 13.66 15.87 14.1 15.41C14.21 15.31 14.38 15.31 14.5 15.41M10.75 13.04C10.75 12.47 10.28 12 9.71 12C9.14 12 8.67 12.47 8.67 13.04C8.67 13.61 9.14 14.09 9.71 14.08C10.28 14.08 10.75 13.61 10.75 13.04M14.29 12C13.72 12 13.25 12.5 13.25 13.05S13.72 14.09 14.29 14.09C14.86 14.09 15.33 13.61 15.33 13.05C15.33 12.5 14.86 12 14.29 12M22 12C22 17.5 17.5 22 12 22S2 17.5 2 12C2 6.5 6.5 2 12 2S22 6.5 22 12M18.67 12C18.67 11.19 18 10.54 17.22 10.54C16.82 10.54 16.46 10.7 16.2 10.95C15.2 10.23 13.83 9.77 12.3 9.71L12.97 6.58L15.14 7.05C15.16 7.6 15.62 8.04 16.18 8.04C16.75 8.04 17.22 7.57 17.22 7C17.22 6.43 16.75 5.96 16.18 5.96C15.77 5.96 15.41 6.2 15.25 6.55L12.82 6.03C12.75 6 12.68 6.03 12.63 6.07C12.57 6.11 12.54 6.17 12.53 6.24L11.79 9.72C10.24 9.77 8.84 10.23 7.82 10.96C7.56 10.71 7.2 10.56 6.81 10.56C6 10.56 5.35 11.21 5.35 12C5.35 12.61 5.71 13.11 6.21 13.34C6.19 13.5 6.18 13.62 6.18 13.78C6.18 16 8.79 17.85 12 17.85C15.23 17.85 17.85 16.03 17.85 13.78C17.85 13.64 17.84 13.5 17.81 13.34C18.31 13.11 18.67 12.6 18.67 12Z"
+                          data-v-35f7fcad=""></path>
+                      </svg>
+                      <!---->
+                      <!---->
+                    </span>
+                  </button></div>
+              </div>
+              <div class="el-col el-col-24 is-guttered auto-col" data-v-3f3cfaed="" data-v-a6971080=""
+                style="padding-left: 4px; padding-right: 4px;"><button
+                  class="el-button el-button--default el-button--small btn nice-button black has-icon square only-icon"
+                  type="button" data-v-63abb087="" data-v-a6971080="">
+                  <!--v-if-->
+                  <!--v-if--><span><svg width="1.625em" height="1.625em" viewBox="0 0 24 24" class="svg-icon icon"
+                      data-v-35f7fcad="" data-v-78853d36="" data-v-63abb087="" style="--sx:1; --sy:1; --r:0deg;">
+                      <path
+                        d="M22,24L16.75,19L17.38,21H4.5A2.5,2.5 0 0,1 2,18.5V3.5A2.5,2.5 0 0,1 4.5,1H19.5A2.5,2.5 0 0,1 22,3.5V24M12,6.8C9.32,6.8 7.44,7.95 7.44,7.95C8.47,7.03 10.27,6.5 10.27,6.5L10.1,6.33C8.41,6.36 6.88,7.53 6.88,7.53C5.16,11.12 5.27,14.22 5.27,14.22C6.67,16.03 8.75,15.9 8.75,15.9L9.46,15C8.21,14.73 7.42,13.62 7.42,13.62C7.42,13.62 9.3,14.9 12,14.9C14.7,14.9 16.58,13.62 16.58,13.62C16.58,13.62 15.79,14.73 14.54,15L15.25,15.9C15.25,15.9 17.33,16.03 18.73,14.22C18.73,14.22 18.84,11.12 17.12,7.53C17.12,7.53 15.59,6.36 13.9,6.33L13.73,6.5C13.73,6.5 15.53,7.03 16.56,7.95C16.56,7.95 14.68,6.8 12,6.8M9.93,10.59C10.58,10.59 11.11,11.16 11.1,11.86C11.1,12.55 10.58,13.13 9.93,13.13C9.29,13.13 8.77,12.55 8.77,11.86C8.77,11.16 9.28,10.59 9.93,10.59M14.1,10.59C14.75,10.59 15.27,11.16 15.27,11.86C15.27,12.55 14.75,13.13 14.1,13.13C13.46,13.13 12.94,12.55 12.94,11.86C12.94,11.16 13.45,10.59 14.1,10.59Z"
+                        data-v-35f7fcad=""></path>
+                    </svg>
+                    <!---->
+                    <!---->
+                  </span>
+                </button></div>
+              <div class="el-col el-col-24 is-guttered auto-col" data-v-3f3cfaed="" data-v-a6971080=""
+                style="padding-left: 4px; padding-right: 4px;"><button
+                  class="el-button el-button--default el-button--small btn nice-button gray has-icon square only-icon"
+                  type="button" data-v-63abb087="" data-v-a6971080="">
+                  <!--v-if-->
+                  <!--v-if--><span><svg width="1.625em" height="1.625em" viewBox="0 0 24 24" class="svg-icon icon"
+                      data-v-35f7fcad="" data-v-78853d36="" data-v-63abb087="" style="--sx:1; --sy:1; --r:0deg;">
+                      <path
+                        d="M12,15.5A3.5,3.5 0 0,1 8.5,12A3.5,3.5 0 0,1 12,8.5A3.5,3.5 0 0,1 15.5,12A3.5,3.5 0 0,1 12,15.5M19.43,12.97C19.47,12.65 19.5,12.33 19.5,12C19.5,11.67 19.47,11.34 19.43,11L21.54,9.37C21.73,9.22 21.78,8.95 21.66,8.73L19.66,5.27C19.54,5.05 19.27,4.96 19.05,5.05L16.56,6.05C16.04,5.66 15.5,5.32 14.87,5.07L14.5,2.42C14.46,2.18 14.25,2 14,2H10C9.75,2 9.54,2.18 9.5,2.42L9.13,5.07C8.5,5.32 7.96,5.66 7.44,6.05L4.95,5.05C4.73,4.96 4.46,5.05 4.34,5.27L2.34,8.73C2.21,8.95 2.27,9.22 2.46,9.37L4.57,11C4.53,11.34 4.5,11.67 4.5,12C4.5,12.33 4.53,12.65 4.57,12.97L2.46,14.63C2.27,14.78 2.21,15.05 2.34,15.27L4.34,18.73C4.46,18.95 4.73,19.03 4.95,18.95L7.44,17.94C7.96,18.34 8.5,18.68 9.13,18.93L9.5,21.58C9.54,21.82 9.75,22 10,22H14C14.25,22 14.46,21.82 14.5,21.58L14.87,18.93C15.5,18.67 16.04,18.34 16.56,17.94L19.05,18.95C19.27,19.03 19.54,18.95 19.66,18.73L21.66,15.27C21.78,15.05 21.73,14.78 21.54,14.63L19.43,12.97Z"
+                        data-v-35f7fcad=""></path>
+                    </svg>
+                    <!---->
+                    <!---->
+                  </span>
+                </button></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="vfm vfm--inset vfm--fixed modal" data-v-5c5f9f8c="" data-v-190c947b="" data-v-92fb8c84=""
+      data-v-96091bac=""
+      style="z-index: 1000; display: none; --width:auto; --height:auto; --minWidth:20rem; --minHeight:auto;">
+      <!---->
+      <div class="vfm__container vfm--absolute vfm--inset vfm--outline-none modal-container" aria-expanded="false"
+        role="dialog" aria-modal="true" tabindex="-1" data-v-5c5f9f8c="" style="display: none;">
+        <div class="vfm__content modal-content" data-v-5c5f9f8c="" style="">
+          <!----><span class="modal__title" data-v-190c947b="">Home</span>
+          <div class="modal__content" data-v-190c947b=""></div>
+          <div class="modal__action" data-v-190c947b="">
+            <div id="routeModalActions" data-v-92fb8c84=""></div>
+          </div><button class="modal__close" data-v-190c947b=""><svg width="1.125em" height="1.125em"
+              viewBox="0 0 24 24" class="svg-icon" color="gray" data-v-35f7fcad="" data-v-78853d36="" data-v-190c947b=""
+              style="--sx:1; --sy:1; --r:0deg;">
+              <path
+                d="M19,6.41L17.59,5L12,10.59L6.41,5L5,6.41L10.59,12L5,17.59L6.41,19L12,13.41L17.59,19L19,17.59L13.41,12L19,6.41Z"
+                data-v-35f7fcad=""></path>
+            </svg></button>
+        </div>
+      </div>
+    </div>
+    <div class="modals-container" data-v-96091bac=""></div>
+    <div class="vue-notification-group notifications" data-v-96091bac=""
+      style="width: 300px; bottom: 0px; left: calc(50% - 150px);"><span></span></div>
+  </div>
+
+  <div id="home-widget-container">
+    <div class="home-widget-overlay-bg" data-v-0b4cd4a6="" style="display: none;"></div>
+    <!---->
+    <div class="home-widget-overlay-bg" data-v-0b4cd4a6="" style="display: none;"></div>
+    <!---->
+  </div>
+  <div id="adContainer" style="
+      position: absolute;
+      display: none;
+      z-index: 9999;
+      top: 0px;
+      left: 0px;
+      background-color: rgba(53, 53, 53, 0.62);
+      width: 100%;
+      height: 100%;
+      overflow: hidden;" class="windowed">
+    <div style="position: absolute;">
+      <div style="display: none;">
+        <lima-video webkit-playsinline="true" playsinline="true"
+          style="background-color: rgb(0, 0, 0); height: 100%; width: 100%; position: absolute; left: 0px; top: 0px;">
+        </lima-video>
+        <div style="position: absolute; width: 100%; height: 100%; left: 0px; top: 0px;"></div>
+      </div>
+      <div style="display: none;">
+        <lima-video webkit-playsinline="true" playsinline="true"
+          style="background-color: rgb(0, 0, 0); height: 100%; width: 100%; position: absolute; left: 0px; top: 0px;">
+        </lima-video>
+        <div style="position: absolute; width: 100%; height: 100%; left: 0px; top: 0px;"></div>
+      </div><iframe src="https://imasdk.googleapis.com/js/core/bridge3.503.0_en.html#goog_1862029989" allowfullscreen=""
+        allow="autoplay;trust-token-redemption" id="goog_1862029989"
+        style="border: 0px; opacity: 0; margin: 0px; padding: 0px; position: relative; color-scheme: light;"></iframe><iframe
+        sandbox="allow-scripts allow-same-origin" srcdoc="<script src=https://pagead2.googlesyndication.com/omsdk/releases/live/omweb-v1.js></script>
+      <script>
+        window.addEventListener('message', function(e) {
+          if (e.data.type === 'innerBridgeIframeLoaded') {
+            window.frameElement.parentElement
+              .querySelector('#goog_1862029989').contentWindow
+              .postMessage({type: 'omidIframeLoaded'}, '*');
+          }
+        });
+      </script>
+    " style="display: none;"></iframe>
+    </div>
+  </div>
+
+  <script type="text/javascript" src="//imasdk.googleapis.com/js/sdkloader/ima3.js" gapi_processed="true"></script>
+  <iframe
+    src="https://1355fb3e83bd8f1b2842e2c8e36e78e8.safeframe.googlesyndication.com/safeframe/1-0-38/html/container.html"
+    style="visibility: hidden; display: none;"></iframe>
+  <div id="scrnli_recorder_root"></div>
+
+
+  <div aria-hidden="true" class="el-dropdown__popper el-popper is-light is-pure" id="el-popper-506" role="tooltip"
+    style="z-index: 2003; display: none;">
+    <div class="el-scrollbar">
+      <div class="el-scrollbar__wrap el-scrollbar__wrap--hidden-default" style="">
+        <ul class="el-scrollbar__view el-dropdown__list" style="">
+          <ul class="el-dropdown-menu--normal el-dropdown-menu" data-v-1afbcfa4="" id="dropdown-menu-4811"><a
+              href="https://reddit.com/r/deeeepio" target="_blank" data-v-1afbcfa4="">
+              <li class="el-dropdown-menu__item" aria-disabled="false" tabindex="-1" data-v-1afbcfa4="">
+                <!--v-if-->General
+              </li>
+            </a><a href="https://reddit.com/r/deeeepioartworks" target="_blank" data-v-1afbcfa4="">
+              <li class="el-dropdown-menu__item" aria-disabled="false" tabindex="-1" data-v-1afbcfa4="">
+                <!--v-if-->Art / Animals
+              </li>
+            </a><a href="https://reddit.com/r/deeeepioskins" target="_blank" data-v-1afbcfa4="">
+              <li class="el-dropdown-menu__item" aria-disabled="false" tabindex="-1" data-v-1afbcfa4="">
+                <!--v-if-->Skins
+              </li>
+            </a><a href="https://reddit.com/r/deeeepiomapmaker" target="_blank" data-v-1afbcfa4="">
+              <li class="el-dropdown-menu__item" aria-disabled="false" tabindex="-1" data-v-1afbcfa4="">
+                <!--v-if-->Maps
+              </li>
+            </a><a href="https://cafe.naver.com/deeeepio  " target="_blank" data-v-1afbcfa4="">
+              <li class="el-dropdown-menu__item" aria-disabled="false" tabindex="-1" data-v-1afbcfa4="">
+                <!--v-if-->딥이오 공식 한국 커뮤니티
+              </li>
+            </a></ul>
+        </ul>
+      </div>
+      <div class="el-scrollbar__bar is-horizontal" style="display: none;">
+        <div class="el-scrollbar__thumb" style="transform: translateX(0%);"></div>
+      </div>
+      <div class="el-scrollbar__bar is-vertical" style="display: none;">
+        <div class="el-scrollbar__thumb" style="transform: translateY(0%);"></div>
+      </div>
+    </div>
+    <div class="el-popper__arrow" data-popper-arrow=""></div>
+  </div><iframe src="chrome-extension://ijejnggjjphlenbhmjhhgcdpehhacaal/audio-devices.html" allow="microphone"
+    style="display: none;"></iframe><input type="file" id="" name="file" style="display: none;">
+  <div data-v-5f0b9ba1="" class="container_selected_area"
+    style="cursor: url(&quot;chrome-extension://ijejnggjjphlenbhmjhhgcdpehhacaal/assets/images/cursor-imagen.svg&quot;) 9 9, crosshair;">
+    <div data-v-5f0b9ba1="" class="area"></div>
+  </div>
+  <div aria-hidden="true" class="el-popper is-dark" id="el-popper-7692" role="tooltip"
+    style="z-index: 2005; display: none;">Region: NAE<div class="el-popper__arrow" data-popper-arrow=""></div>
+  </div>
+  <div aria-hidden="true" class="el-dropdown__popper el-popper is-light is-pure" id="el-popper-7622" role="tooltip"
+    style="z-index: 2004; display: none;">
+    <div class="el-scrollbar">
+      <div class="el-scrollbar__wrap el-scrollbar__wrap--hidden-default" style="">
+        <ul class="el-scrollbar__view el-dropdown__list" style="">
+          <ul class="el-dropdown-menu--normal el-dropdown-menu" data-v-e80b2d0c="" id="dropdown-menu-4236"
+            style="padding: 0.5em !important;">
+            <li class="el-dropdown-menu__item is-disabled" aria-disabled="true" data-v-e80b2d0c="">
+              <!--v-if-->NAE
+            </li>
+          </ul>
+        </ul>
+      </div>
+      <div class="el-scrollbar__bar is-horizontal" style="display: none;">
+        <div class="el-scrollbar__thumb" style="transform: translateX(0%);"></div>
+      </div>
+      <div class="el-scrollbar__bar is-vertical" style="display: none;">
+        <div class="el-scrollbar__thumb" style="transform: translateY(0%);"></div>
+      </div>
+    </div>
+    <div class="el-popper__arrow" data-popper-arrow=""></div>
+  </div>
+  <style>
+    .tb_button {
+      padding: 1px;
+      cursor: pointer;
+      border-right: 1px solid #8b8b8b;
+      border-left: 1px solid #FFF;
+      border-bottom: 1px solid #fff;
+    }
+
+    .tb_button.hover {
+      borer: 2px outset #def;
+      background-color: #f8f8f8 !important;
+    }
+
+    .ws_toolbar {
+      z-index: 100000
+    }
+
+    .ws_toolbar .ws_tb_btn {
+      cursor: pointer;
+      border: 1px solid #555;
+      padding: 3px
+    }
+
+    .tb_highlight {
+      background-color: yellow
+    }
+
+    .tb_hide {
+      visibility: hidden
+    }
+
+    .ws_toolbar img {
+      padding: 2px;
+      margin: 0px
+    }
+  </style><iframe src="https://www.google.com/recaptcha/api2/aframe" width="0" height="0"
+    style="display: none;"></iframe>
+</body>
+
+</html>
